@@ -24,8 +24,10 @@ module.exports = function (grunt) {
         maxTimeout      : -1
       });
 
-      if (options.injectScriptPath) {
-        options.injectScriptPath = process.cwd() + options.injectScriptPath;
+      if (options.injectScriptPath &&
+          options.injectScriptPath.charAt(0) !== '/') {
+        options.injectScriptPath = process.cwd() +
+          '/' + options.injectScriptPath;
       }
 
       // Iterate over all specified files

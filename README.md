@@ -16,12 +16,12 @@ grunt.initConfig({
 
   phantasmine: {
     files: [
-      '/tests/specs.html'
+      'tests/specs.html'
     ],
     options: {
       suppressErrorLog: false,
       enableConsoleLog: true,
-      injectScriptPath: '/my_shims.js',
+      injectScriptPath: 'my_shims.js',
       maxTimeout: 30000
     }
   }
