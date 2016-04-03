@@ -1,7 +1,7 @@
 {
   "name": "grunt-phantasmine",
   "description": "Jasmine unit test runner within PhantomJS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ayonghosh/phantasmine",
   "author": "Ayon Ghosh <ayonghosh88@gmail.com>",
   "repository": {
@@ -24,7 +24,10 @@
     "phantomjs": "~1.9.8"
   },
   "keywords": [
-    "gruntplugin", "phantomjs", "jasmine", "test"
+    "gruntplugin",
+    "phantomjs",
+    "jasmine",
+    "test"
   ],
   "bugs": {
     "url": "https://github.com/ayonghosh/phantasmine/issues"
