@@ -79,4 +79,10 @@ Total passed: 429
 Total failed: 0
 ```
 
+### Known issues/tips
+
++ The jQuery function $.html() does not work too well with SVGs in PhantomJS
+hence any tests using this might break despite them working fine on other
+major browsers; in such cases, use $.text() for better results.
+
 *This file was generated on Sun Apr 03 2016 10:23:54 GMT+0530 (IST)*
