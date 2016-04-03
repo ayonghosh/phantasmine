@@ -1,7 +1,12 @@
 # Phantasmine
 A Grunt plugin for executing Jasmine unit tests inside PhantomJS.
 
-*Includes shims for Function.prototype.bind and Blob*
+*Includes shims for Function.prototype.bind and Blob.*
+
+### Install
+
+`npm install grunt-phantasmine`
+
 
 ### Usage
 
@@ -58,3 +63,5 @@ Executing Jasmine test runner: "../tests/specs.html"...
 Total passed: 429
 Total failed: 0
 ```
+
+*This file was generated on Sun Apr 03 2016 10:23:54 GMT+0530 (IST)*
