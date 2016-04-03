@@ -1,7 +1,7 @@
 {
   "name": "grunt-phantasmine",
   "description": "Jasmine unit test runner within PhantomJS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/ayonghosh/phantasmine",
   "author": "Ayon Ghosh <ayonghosh88@gmail.com>",
   "repository": {
