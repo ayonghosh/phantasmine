@@ -55,6 +55,21 @@ In case there is an unresponsive script on your page, then PhantomJS will force
 quit after this time (in milliseconds) if specified. *Optional.* Defaults to
 **30 seconds**.
 
+### Error codes
+
+The PhantomJS process will exit with one the following known exit codes:
+
+0: All tests passed  
+1: No test runner file was specified  
+2: Error while loading the test runner file  
+3: One or more tests failed  
+4: The tests took too long to execute and timed out within the specified limit  
+5: There were one or more JavaScript errors while executing the test runner
+page.
+
+If it exits with any other code it probably means there was an error
+beyond the scope of this plugin, e.g., OS-level.
+
 ### Sample output
 
 ```
